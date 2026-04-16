@@ -54,7 +54,7 @@ Instead of direct device-to-device communication, all data flows through the bro
 
 
 
-👉This decoupling is essential for scalable IoT systems.
+This decoupling is essential for scalable IoT systems.
 
 
 
@@ -251,7 +251,7 @@ This system is designed for scalability toward advanced IoT systems:
 
 
 
-\## 💻 Software Stack
+\##  Software Stack
 
 \- Embedded C++ (Arduino Framework)
 
@@ -280,7 +280,7 @@ Government College University, Lahore, Pakistan
 
 
 
-📧 Email: izubair431@gmail.com  
+Email: izubair431@gmail.com  
 
 🔗 LinkedIn:www.linkedin.com/in/zubair-iqbal-03a9a1333 
 
