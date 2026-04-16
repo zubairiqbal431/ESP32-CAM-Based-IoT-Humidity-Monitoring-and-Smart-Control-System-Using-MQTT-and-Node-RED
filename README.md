@@ -235,7 +235,7 @@ This system is designed for scalability toward advanced IoT systems:
 
 \##  Hardware Used
 
-\- ESP32 / ESP32-CAM
+\- ESP32-CAM
 
 \- DHT22 Humidity Sensor
 
