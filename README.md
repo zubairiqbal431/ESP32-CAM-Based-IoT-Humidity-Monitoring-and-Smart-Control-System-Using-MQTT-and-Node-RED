@@ -42,7 +42,7 @@ Instead of direct device-to-device communication, all data flows through the bro
 
 
 
-\### ✔ Functional Role:
+\###  Functional Role:
 
 \- Receives sensor data from ESP32 (Publisher)
 
