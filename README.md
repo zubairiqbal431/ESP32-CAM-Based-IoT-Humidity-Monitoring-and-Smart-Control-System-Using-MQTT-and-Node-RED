@@ -270,6 +270,9 @@ This system is designed for scalability toward advanced IoT systems:
 
 \##  Author
 
+\##  Conclusion
+
+This project demonstrates a complete IoT embedded system integrating real-time sensing, MQTT-based communication, and automated decision-making. The architecture follows a scalable publish/subscribe model, making it suitable for extension into industrial monitoring systems, smart agriculture, and vision-enabled IoT applications using ESP32-CAM.
 
 
 Zubair Iqbal  
@@ -290,7 +293,4 @@ Email: izubair431@gmail.com
 
 
 
-\##  Conclusion
-
-This project demonstrates a complete IoT embedded system integrating real-time sensing, MQTT-based communication, and automated decision-making. The architecture follows a scalable publish/subscribe model, making it suitable for extension into industrial monitoring systems, smart agriculture, and vision-enabled IoT applications using ESP32-CAM.
 
