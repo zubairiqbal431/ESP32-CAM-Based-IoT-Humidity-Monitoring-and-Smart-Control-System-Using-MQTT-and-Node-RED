@@ -281,7 +281,7 @@ Government College University, Lahore, Pakistan
 
 📧 Email: izubair431@gmail.com  
 
-🔗 LinkedIn: https://www.linkedin.com/in/your-link-here  
+🔗 LinkedIn:www.linkedin.com/in/zubair-iqbal-03a9a1333 
 
 
 
