@@ -1,0 +1,142 @@
+[
+    {
+        "id": "145a60b77d916710",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "99f3575d34c04170",
+        "type": "ui_button",
+        "z": "145a60b77d916710",
+        "name": "",
+        "group": "897d1152f546e4bd",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "led on",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "ON",
+        "payloadType": "str",
+        "topic": "zubair/iot/led/control",
+        "topicType": "msg",
+        "x": 190,
+        "y": 200,
+        "wires": [
+            [
+                "4d0694b9cb04c19c"
+            ]
+        ]
+    },
+    {
+        "id": "f009c7c00feb3888",
+        "type": "ui_button",
+        "z": "145a60b77d916710",
+        "name": "",
+        "group": "897d1152f546e4bd",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "led off",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "OFF",
+        "payloadType": "str",
+        "topic": "zubair/iot/led/control",
+        "topicType": "msg",
+        "x": 190,
+        "y": 320,
+        "wires": [
+            [
+                "4d0694b9cb04c19c"
+            ]
+        ]
+    },
+    {
+        "id": "4d0694b9cb04c19c",
+        "type": "mqtt out",
+        "z": "145a60b77d916710",
+        "name": "",
+        "topic": "zubair/led/control",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "7011402770337fd1",
+        "x": 570,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "897d1152f546e4bd",
+        "type": "ui_group",
+        "name": "led control",
+        "tab": "48d8c07aaf9ca3b6",
+        "order": 2,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "7011402770337fd1",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.hivemq.com",
+        "port": 1883,
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": 4,
+        "keepalive": 60,
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "48d8c07aaf9ca3b6",
+        "type": "ui_tab",
+        "name": "Dashboard",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "e36ac64d1ee29bc1",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-dashboard": "3.6.6"
+        }
+    }
+]

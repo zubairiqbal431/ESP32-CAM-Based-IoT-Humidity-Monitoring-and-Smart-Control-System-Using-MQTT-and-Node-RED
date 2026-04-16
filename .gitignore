@@ -1,0 +1,24 @@
+# Compiled files
+*.bin
+*.elf
+*.hex
+
+# Arduino build files
+*.d
+*.o
+*.a
+
+# ESP32 build folders
+build/
+.out/
+
+# Temporary files
+*.tmp
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node-RED backups (optional)
+*.backup
