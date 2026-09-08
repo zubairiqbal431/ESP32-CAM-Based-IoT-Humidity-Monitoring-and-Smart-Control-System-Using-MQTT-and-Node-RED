@@ -101,15 +101,7 @@ The MQTT broker acts as the central communication hub:
 
 - Arduino (C++)  
 - MQTT (HiveMQ)  
-- Node-RED  
-
----
-
-## Demo Video
-
-*(Add your video link here)*
-
----
+- Node-RED  
 
 ## Conclusion
 
